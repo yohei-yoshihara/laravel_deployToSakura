@@ -20,5 +20,5 @@ jobs:
           username: ${{ secrets.SAKURA_USER }}
           password: ${{ secrets.SAKURA_PASSWORD }}
           local-dir: /home/runner/work/laravel_deployToSakura/laravel_deployToSakura/
-          server-dir: laravel_deployToSakura 
+          server-dir: laravel_deployToSakura/
 
