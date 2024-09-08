@@ -22,6 +22,5 @@ jobs:
           password: ${{ secrets.SAKURA_PASSWORD }}
           local-dir: /home/runner/work/laravel_deployToSakura/laravel_deployToSakura/
           server-dir: laravel_deployToSakura/
-          log-level: verbose
           security: loose
 
