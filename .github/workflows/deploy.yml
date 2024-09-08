@@ -16,11 +16,12 @@ jobs:
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
           protocol: ftps
-          port: 990
+          port: 21
           server: ${{ secrets.SAKURA_HOST }}
           username: ${{ secrets.SAKURA_USER }}
           password: ${{ secrets.SAKURA_PASSWORD }}
           local-dir: /home/runner/work/laravel_deployToSakura/laravel_deployToSakura/
           server-dir: laravel_deployToSakura/
           log-level: verbose
+          security: loose
 
